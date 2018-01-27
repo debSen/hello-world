@@ -15,5 +15,5 @@ class print_app(object):
     
 if __name__== "__main__":
     Obj = print_app()
-    #Print "Hello World"
+    print "Hello World"
     Obj.print_args("Hello World!")
