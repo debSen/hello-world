@@ -19,6 +19,7 @@ class print_app(object):
         return req_dict['name']
     
 if __name__== "__main__":
+    pass
     #Obj = print_app()
     #print "Hello World"
     #Obj.print_args("Hello World!")
