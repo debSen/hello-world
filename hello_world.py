@@ -13,6 +13,11 @@ class print_app(object):
         req_dict = req.json()
         return req_dict['answer']
     
+    def generate_random_name(self):
+        req = reuests.get('http://uinames.com/api/')
+        req_dict = req.json()
+        return req_dict['name']
+    
 if __name__== "__main__":
     Obj = print_app()
     print "Hello World"
