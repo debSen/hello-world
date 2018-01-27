@@ -1,4 +1,4 @@
 import unitest
-import hello-world
+import hello_world
 
-assert(hello-world, "Hello world")
+assert(hello_world, "Hello world")
