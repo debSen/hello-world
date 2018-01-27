@@ -11,7 +11,7 @@ class print_app(object):
     def print_yes_no(self):
         req = requests.get('https://yesno.wtf/api')
         req_dict = req.json()
-        print req_dict['answer']
+        return req_dict['answer']
     
 "if__name__== "__main__":
     Obj = print_app()
