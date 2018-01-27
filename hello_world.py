@@ -13,7 +13,7 @@ class print_app(object):
         req_dict = req.json()
         print req_dict['answer']
     
-
-Obj = print_app()
-#Print "Hello World"
-Obj.print_args("Hello World!")
+"if__name__== "__main__":
+    Obj = print_app()
+    #Print "Hello World"
+    Obj.print_args("Hello World!")
