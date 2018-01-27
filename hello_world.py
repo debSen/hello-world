@@ -6,7 +6,7 @@ class print_app(object):
         pass
     
     def print_args(self,args):
-        print args
+        return args
         
     def print_yes_no(self):
         req = requests.get('https://yesno.wtf/api')
