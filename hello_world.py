@@ -8,7 +8,7 @@ class print_app(object):
     def print_args(self,args):
         print args
         
-    def print_yes_no():
+    def print_yes_no(self):
         req = requests.get('https://yesno.wtf/api')
         req_dict = req.json()
         print req_dict['answer']
