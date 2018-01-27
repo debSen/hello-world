@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import requests
 
-class print_app(object):
+class basic_app(object):
     def __init__(self):
         pass
     
@@ -20,6 +20,6 @@ class print_app(object):
     
 if __name__== "__main__":
     pass
-    #Obj = print_app()
+    #Obj = basic_app()
     #print "Hello World"
     #Obj.print_args("Hello World!")
