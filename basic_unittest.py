@@ -1,5 +1,6 @@
 import unittest
-import hello_world.print_app
+import hello_world
 
-print print_app.print_args("Hello world")
+test_obj = print_app.print_app()
+print test_obj.print_args()
 assert(hello_world.print_app(), "Hello world")
